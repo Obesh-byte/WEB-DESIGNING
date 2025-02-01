@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav .menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff2b85;
+    font-family: cursive;
+    margin: 0 10px;
+
+}
+
+.menu a:hover {
+    background: black;
+    padding: 9px 9px;
+}
+
+.banner {
+    background: url(https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda-1920x539.jpeg);
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner h1 {
+    text-align: center;
+    background: linear-gradient(45deg, yellow, silver, transparent);
+    width: 601px;
+    margin: auto;
+    position: relative;
+    top: 60%;
+    font-size: 50px;
+    box-shadow: 5px 8px 10px white;
+    border-radius: 20px 20px 20px 20px
+}
+
+.news {
+    background: #ff2b85;
+    width: 100%;
+    height: 50px;
+}
+
+.news marquee {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.about {
+    padding: 150px 200px;
+    text-align: center;
+
+}
+
+.about h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 2px #ff2b85;
+}
+
+.about p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.about button {
+    padding: 13px 30px;
+    font-size: 14px;
+    background: #ff2b85;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    margin: 6px 0;
+}
+
+.help {
+    padding: 150px 200px;
+    text-align: center;
+    background: url(https://png.pngtree.com/background/20210710/original/pngtree-healthy-food-health-product-promotion-banner-picture-image_994071.jpg);
+    background-position: centre;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+
+}
+
+.help h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 2px #ff2b85;
+}
+
+.help p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.help button {
+    padding: 13px 30px;
+    font-size: 14px;
+    background: #ff2b85;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    margin: 6px 0;
+}
+
+.contact {
+    padding: 150px 200px;
+    text-align: center;
+    background: url(https://png.pngtree.com/back_origin_pic/05/05/46/654363fbdf2476f5f692b062a088e305.jpg);
+    background-position: centre;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 2px #ff2b85;
+}
+
+.contact p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.contact button {
+    padding: 13px 30px;
+    font-size: 14px;
+    background: #ff2b85;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    margin: 6px 0;
+}
+
+.press {
+    padding: 150px 200px;
+    text-align: center;
+    background: url(https://www.dochipo.com/wp-content/uploads/2021/01/banner-1.png);
+    background-position: centre;
+    background-size: cover;
+    color: white;
+    background-attachment: fixed;
+}
+
+.press h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 2px;
+    text-shadow: 2px 2px 2px #ff2b85;
+}
+
+.press p {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 30px;
+    word-spacing: 1px;
+}
+
+.press button {
+    padding: 13px 30px;
+    font-size: 14px;
+    background: #ff2b85;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px black;
+    margin: 6px 0;
+}
+footer {
+    padding: 80px 5% 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5rem;
+    background: black;
+   
+}
+
+.footer-content h4 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+    
+}
+
+.footer-content li {
+    margin-bottom: 16px;
+}
+
+.footer-content li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .40s ease;
+}
+
+.footer-content li a:hover {
+    transform: translateY(-3px) translateX(-5px);
+    color: white;
+}
+
+.footer-content p {
+    color: white;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 20px 0;
+}

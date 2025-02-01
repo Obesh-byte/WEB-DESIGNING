@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+
+    width: 100%;
+    height: 48px;
+    background-color: #f80;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 126px;
+    position: fixed;
+    z-index: 1;
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    padding-bottom: 13px;
+    word-spacing: 2px;
+}
+
+.home {
+
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 14px;
+    padding-bottom: 13px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+
+.menu .main {
+
+    background: rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.banner {
+
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    padding-top: 20px;
+    width: 100%;
+    height: 530px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner h1 {
+
+    color: white;
+    margin: auto;
+    width: 60%;
+    position: relative;
+    top: 36%;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.banner p {
+
+    color: white;
+    margin: auto;
+    width: 60%;
+    position: relative;
+    top: 36%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 8px;
+
+}
+
+.main {
+
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.main h1 {
+
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.main p {
+
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+
+.photos {
+
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin: 28px 20px;
+    position: relative;
+    left: 130px;
+}
+
+.photos img {
+
+
+    width: 348px;
+    height: 248px;
+    padding: 2px;
+
+}
+
+button {
+
+    padding: 15px 50px;
+    background-color: #f80;
+    color: white;
+    font-size: 22px;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 70px;
+
+}
+
+.para {
+
+    padding: 100px 260px;
+}
+
+.para p {
+
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+
+.cities {
+    border: 0.1px solid black;
+}
+
+.copyright {
+
+    padding: 55px 150px 160px 140px;
+    background-color: rgb(235, 233, 229);
+}
+
+.copyright .p1 {
+
+    color: #f80;
+}
